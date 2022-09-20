@@ -1,0 +1,8 @@
+//let nums=new Set("naveen")
+let nums=new Set()
+nums.add(3)
+nums.add(4)
+nums.add(3)
+nums.add("naveen")
+nums.add("kumar")
+console.log(nums.has('naveen'))
